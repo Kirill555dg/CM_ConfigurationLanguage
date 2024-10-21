@@ -1,0 +1,10 @@
+var base 100
+var aye [1,4,3]
+cool {
+   who : [54, 13, 12];
+   smth : |base|;
+   users : {
+       kirill : |aye|;
+       misha : 123
+   }
+}

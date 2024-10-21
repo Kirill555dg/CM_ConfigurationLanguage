@@ -124,19 +124,6 @@ def pretty_print_xml(xml_string):
 
 # Пример использования
 if __name__ == "__main__":
-    # input_text = """
-    # var base 100
-    # var aye [1,4,3]
-    # cool {
-    #    who : [54, 13, 12];
-    #    smth : |base|;
-    #    users : {
-    #        kirill : |aye|;
-    #        misha : 123
-    #    }
-    # }
-    # """
-
     input_text = sys.stdin.read()
     xml_str  = parse_config(input_text)
     output = pretty_print_xml(xml_str)
