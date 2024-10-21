@@ -30,7 +30,7 @@
 
 Пример запуска:
 ```bash
-python script.py < input.txt > output.xml
+cat input.txt | py script.py > output.txt
 ```
 Здесь:
 - **input.txt** — файл с конфигурационными данными на вашем языке.
